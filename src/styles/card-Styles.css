@@ -1,0 +1,189 @@
+.encabezado{
+    background-color: #1B1D1F;
+    margin: -13% -12%;
+    width: 125%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.principal-coffee{
+    margin-top: -150px;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important; /* Esto creará columnas que se ajusten al tamaño de las tarjetas */
+    gap: 20px !important; /* Espacio entre las tarjetas */
+    padding: 60px !important; /* Padding alrededor del grid */
+  }
+
+  .tittle-content{
+    margin: -218px 0;
+    padding: 90px 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-content{
+    width: 100% !important;
+    margin: 50px 0 40px 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: aliceblue !important;
+}
+
+.style-button{
+    background-color: #1B1D1F;
+    margin: -400px 5px 100px 5px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.style-button:hover{
+    background-color: #6F757C;
+}
+
+.coffee-cards{
+    margin-top: 20px;
+    max-width: 600px;
+    background-color: #1B1D1F !important;
+    border-radius: 15px !important;
+}
+
+.content-card{
+    background-color: #1B1D1F !important;
+    margin-top: 160px;
+    text-decoration: none !important;
+}   
+
+.img-content{
+    position: relative;
+    border-radius: 15px !important;
+    height: 190px;
+    width: 345px;
+}
+
+.controller-content{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.controller-name-coffee{
+    color: white !important;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold !important;
+}
+
+.controller-price{
+    background-color: #BEE3CC;
+    color: #111315;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 13px;
+    float: right !important;
+    padding: 2px 8px; /* Añade un poco de padding para mejorar la apariencia */
+    white-space: nowrap; /* Evita que el precio se divida en varias líneas */
+}
+
+.controller-star{
+    margin: -5px 5px;
+    color: #F6C768 !important;
+    float: left !important;
+}
+
+.controller-rating{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.controller-rating.disabled{
+    color: #6F757C;
+}
+
+.controller-votes{
+    color: #6F757C;
+    margin: 0 5px;
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+
+.controller-popular{
+    background-color: #F6C768;
+    position: absolute;
+    max-width: 60px;
+    margin: -180px 10px;
+    padding: 3px 8px !important;
+    border-radius: 50px;
+    color: #111315;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+}
+
+.controller-popular-div{
+    display: block;
+}
+
+.controller-available{
+    color: #ED735D;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Inter", sans-serif !important;
+}
+
+.class-hidden{
+    visibility: hidden;
+}
+
+.class-visible{
+    visibility: visible;
+}
+
+.principal-image{
+    width: 150% !important;
+    margin: -3% 0 0 -25%;
+}
+
+.vector{
+    position: relative;
+    margin: 2% 0 0 18%;
+}
+
+.bottom-modal{
+    margin: -20px 260px;
+    background-color: #1B1D1F !important;
+}
+
+.modal-open{
+    border-radius: 20px !important;
+    margin-top: -3px;
+}
+
+.modal-controller{
+    display: inline-block;
+    color: #111315;
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-style: normal !important;
+}
+
+.img-modal{
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+
