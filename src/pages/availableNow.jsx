@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import bgcafe from '../assets/Images/bg-cafe.jpg'
 import star from '../assets/Icons/Star.svg'
 import star_fill from '../assets/Icons/Star_fill.svg'
-import vector from '../assets/Icons/Vector.svg'
+import vector from '../assets/Icons/vector.svg'
 import review from '../assets/Icons/preReview.svg'
 import ModalOpen from '../components/modal-Open';
 
